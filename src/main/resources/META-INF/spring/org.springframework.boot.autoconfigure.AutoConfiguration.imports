@@ -1,1 +1,4 @@
 com.trade.app.upstock.lib.service.impl.UpstockUrlBuilderImpl
+com.trade.app.upstock.lib.service.impl.UpstockClientServiceImpl
+com.trade.app.upstock.lib.config.UpstockAuthConfigs
+com.trade.app.upstock.lib.gateway.UpstockApiGateway

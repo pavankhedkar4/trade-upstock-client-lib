@@ -3,6 +3,9 @@ logging:
     root: DEBUG
     '[com.upstock.client]': DEBUG
 
+server:
+  port: 8087
+
 upstock:
   auth:
     url: https://api.upstox.com/v2/login/authorization/token

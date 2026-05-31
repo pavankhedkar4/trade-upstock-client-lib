@@ -5,4 +5,5 @@ import org.springframework.stereotype.Service;
 @Service
 public interface UpstockClientService {
 	String getAuthToken(String code);
+	String getPortfolioHoldings();
 }

@@ -12,7 +12,14 @@ public class UpstockAuthConfigs {
 	private String client_id;
 	private String client_secret; 
 	private String grant_type;
+	private String authCacheKey;
 	
+	public String getAuthCacheKey() {
+		return authCacheKey;
+	}
+	public void setAuthCacheKey(String authCacheKey) {
+		this.authCacheKey = authCacheKey;
+	}
 	public String getSecretCode() {
 		return secretCode;
 	}

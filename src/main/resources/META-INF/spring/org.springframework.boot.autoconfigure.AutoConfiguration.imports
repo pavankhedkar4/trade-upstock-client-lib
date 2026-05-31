@@ -1,4 +1,8 @@
 com.trade.app.upstock.lib.service.impl.UpstockUrlBuilderImpl
 com.trade.app.upstock.lib.service.impl.UpstockClientServiceImpl
 com.trade.app.upstock.lib.config.UpstockAuthConfigs
+com.trade.app.upstock.lib.config.UpstockClientApiConfigs
 com.trade.app.upstock.lib.gateway.UpstockApiGateway
+com.trade.app.upstock.lib.gateway.UpstockClientGateway
+com.trade.app.upstock.lib.config.RedisCacheConfig
+com.trade.app.upstock.lib.config.UpstockWebsocketApiConfigs

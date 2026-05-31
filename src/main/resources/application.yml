@@ -11,16 +11,26 @@ upstock:
     url: https://api.upstox.com/v2/login/authorization/token
     redirection_uri: http://localhost:8080/api/login/saveAccessCode
     client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
-    client_secret: 81jq429l7i
+    client_secret: m0xs4z5dqq
     grant_type: authorization_code
     mockFlag: false
+    authCacheKey: Upstock_Token
 
   code:
     value: code
     url: https://api.upstox.com/v2/login/authorization/dialog
     redirection_uri: http://localhost:8080/api/login/saveAccessCode
     client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
-
+    
+  portfolio:
+    holdings_url: https://api.upstox.com/v2/portfolio/long-term-holdings
+    redirection_uri: http://localhost:8080/api/login/saveAccessCode
+    client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
+  websocket:
+    market_data_feed_auth_url: https://api.upstox.com/v3/feed/market-data-feed/authorize
+    redirection_uri: http://localhost:8080/api/login/saveAccessCode
+    client_id: 68bcff7a-3856-4f0f-8496-51bee90e0a36
+    
 spring:
   cache:
     type: redis

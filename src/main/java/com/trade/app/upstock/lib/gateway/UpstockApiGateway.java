@@ -43,4 +43,5 @@ public class UpstockApiGateway {
 		return response;
 
 	}
+	
 }

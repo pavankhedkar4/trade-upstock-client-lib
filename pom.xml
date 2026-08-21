@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.trade.app</groupId>
 	<artifactId>trade-upstock-client-lib</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.4</version>
 	<name>trade-upstock-client-lib</name>
 	<description>Provides a login and signup functionality</description>
 	<url/>

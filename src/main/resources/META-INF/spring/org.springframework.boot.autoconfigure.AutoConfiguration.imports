@@ -6,3 +6,6 @@ com.trade.app.upstock.lib.gateway.UpstockApiGateway
 com.trade.app.upstock.lib.gateway.UpstockClientGateway
 com.trade.app.upstock.lib.config.RedisCacheConfig
 com.trade.app.upstock.lib.config.UpstockWebsocketApiConfigs
+com.trade.app.upstock.lib.listener.UpstockWebSocketListener
+com.trade.app.upstock.lib.websocket.UiWebSocketHandler
+com.trade.app.upstock.lib.websocket.service.UpstoxMarketFeedClient
